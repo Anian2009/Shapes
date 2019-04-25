@@ -9,7 +9,7 @@ public class Trapezium implements Figure{
     public Trapezium(){
         middleLine = (double) Math.round(Math.random()*1000)/100;
         height = (double) Math.round(Math.random()*1000)/100;
-        color = Color.getColor();
+        color = setColor();
     }
 
     @Override

@@ -6,7 +6,7 @@ public class Square implements Figure{
 
     public Square(){
         side = (double) Math.round(Math.random()*1000)/100;
-        color = Color.getColor();
+        color = setColor();
     }
 
     @Override

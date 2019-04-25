@@ -6,7 +6,7 @@ public class Circle implements Figure{
 
     public Circle(){
         radius = (double) Math.round(Math.random()*1000)/100;
-        color = Color.getColor();
+        color = setColor();
     }
 
     @Override
